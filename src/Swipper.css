@@ -1,0 +1,41 @@
+.MySwipper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .mainSlide{
+    background-color: white;
+    width: 50%;
+    height: 40vh;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    box-shadow: 3px 3px 3px 3px rgba(169, 169, 169, 0.4);
+    border-radius: 10px;
+    border: 2px solid white;
+   
+
+  }
+  .Client{
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    gap:10px;
+   
+  }
+ 
+  .overview{
+    background-color: cornflowerblue;
+    width: 80%;
+    height: 5vh;
+  }
+  
+
+  @media(max-width:700px){
+ .mainSlide{
+    width: 80%;
+    height: 45vh;
+ }
+}
